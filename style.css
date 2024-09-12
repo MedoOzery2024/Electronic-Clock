@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right,#4A00E0, #8E2DE2);
+    font-family: 'Arial', sans-serif;
+}
+
+.clock-container {
+    background-color:black;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+#clock {
+    font-size: 60px;
+    color: black;
+    text-shadow: 0 0 10px yellow;
+    letter-spacing: 3px;
+}
